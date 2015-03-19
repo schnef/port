@@ -1,0 +1,4 @@
+#!/bin/sh
+
+erl -pa ../port/ebin -pa deps/*/ebin -s reloader  2> error.log
+
